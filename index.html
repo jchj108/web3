@@ -1,11 +1,44 @@
 <!doctype html>
 <html>
 <head>
-  <title>Welcome, Juyeon.</title>
+  <style type="text/css">
+a { text-decoration:none }
+</style>
+  <title>Welcome, Juyeon</title>
   <meta charset="utf-8">
 </head>
+
 <body>
-  <h1><a href="index.html">Welcome, Juyeon.</a></h1>
-  <p>
-  <img src="our.jpg" width="50%" height="50">
+  <h1><a href="index.html">Welcome, Juyeon</a></h1>
+  <ol type="i">
+  <li><strong><a href="introduce.html">Introduce</strong></a></li>
+  <li><strong><a href="today.html">Today</strong></a></li>
+  <li><strong><a href="todolists.html">To do lists</strong></a></li>
+  </ol>
+  <p style="margin-top:40px">
+  <img src="our.jpg" height="700">
   </p>
+  <p>
+  <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-2.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+</body>
+</html>
