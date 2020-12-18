@@ -3,7 +3,6 @@ body {
   background-color: pink;
 }
 
-
 a {
   text-decoration: none;
   color: black;
@@ -20,6 +19,10 @@ ol {
   border-bottom: 1px solid gray;
   padding-bottom: 10px;
   padding-left: 20px;
+  }
+
+button:hover {
+  color : purple;
 }
 
 h1 {
